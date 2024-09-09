@@ -1,0 +1,18 @@
+{
+  "name": "projeto-site",
+  "version": "1.0.0",
+  "description": "Projeto de um site",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "nodemon": "^3.1.4"
+  }
+}

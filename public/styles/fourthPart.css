@@ -1,0 +1,71 @@
+.container-fourth-part{
+    background-image: url(../assets/hp1-blog-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 300px;
+}
+
+.container-cards{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    background-color: white;
+    width: 30%;
+    height: 282px;
+    padding: 50px 35px 0px 35px;
+    border-bottom: 4px solid black;
+}
+
+.cards-paragrafo{
+    margin-top: 10px;
+    
+    border-bottom: 1px solid #959595;
+}
+
+.cards h1 {
+    font-size: 20px;
+    font-family: "ArcaMojora", sans-serif;
+    color: #343434;
+}
+
+.cards p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 30px;
+}
+
+.cards small {
+    font-size: 13px;
+    color: #959595;
+    line-height: 55px;
+    letter-spacing: 2px;
+    border-top: 1px solid #959595;
+    font-style: italic;
+}
+
+.container-cards-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container-logos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: white;
+}

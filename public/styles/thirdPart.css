@@ -1,0 +1,83 @@
+.third-part-description {
+    margin: 55px 0px;
+}
+
+.div-line{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
+.div-line p {
+    color: transparent;
+}
+
+.first-div{
+    border-right: 1px solid black;
+}
+
+.third-part-description{
+    display: flex;
+    width: 100%;
+}
+
+.third-part-photo{
+    width: 50%;
+}
+
+.third-part-photo img {
+    width: 100%;
+    height: 100%;
+}
+.third-part-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #e2e2e2;
+}
+
+.icon-light{
+    display: flex;
+    gap: 30px;
+    width: 50%;
+}
+
+.container-meet{
+    padding: 10px 300px;
+}
+
+.div-meet-h1{
+    width: 30%;
+}
+
+.div-meet-paragrafo{
+    width: 50%;
+}
+
+.container-person-photos{
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.person-photos{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.person-photos h1 {
+    font-family: "ArcaMojora", sans-serif;
+    font-size: 18px;
+    color: #383838;
+    margin-top: 30px;
+}
+
+.person-photos small {
+    font-family: "Lora", serif;
+    color: #888888;
+    margin-top: 20px;
+}
+
