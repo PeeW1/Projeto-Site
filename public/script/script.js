@@ -4,6 +4,7 @@ const dropdown = document.querySelector('.container-dropdown')
 const home = document.getElementById('home')
 const pages = document.getElementById('pages')
 const portfolio = document.getElementById('portfolio')
+const blog = document.getElementById('blog')
 
 
 
@@ -31,5 +32,14 @@ home.addEventListener('mouseenter', () => {
     
         portfolio.addEventListener('mouseleave', () => {
             portfolioDropdown.classList.add('hidden');
+        });
+    });
+
+    blog.addEventListener('mouseenter', () => {
+        const blogDropdown = blog.querySelector('.container-dropdown');
+        blogDropdown.classList.remove('hidden');
+    
+        blog.addEventListener('mouseleave', () => {
+            blogDropdown.classList.add('hidden');
         });
     });
